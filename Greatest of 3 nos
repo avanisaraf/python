@@ -1,0 +1,11 @@
+print("enter the nos")
+a=input()
+b=input()
+c=input()
+if a>b and a>c:
+    print("greatest no is", a)
+elif b>c and b>a:
+     print("greatest no is", b)
+else:
+    print("greatest no is",c)
+    
